@@ -1,0 +1,28 @@
+:root {
+  --dark-blue: hsl(233, 26%, 24%);
+  --Lime-green: hsl(136, 65%, 51%);
+  --Bright-cyan: hsl(192, 70%, 51%);
+  --Grayish-blue: hsl(233, 8%, 62%);
+  --Light-grayish-blue: hsl(220, 16%, 96%);
+  --Very-light-gray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.container-sm {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.btn-primary {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: white;
+  font-family: Roboto-m;
+  background: linear-gradient(120deg, var(--Lime-green), var(--Bright-cyan));
+  cursor: pointer;
+}
