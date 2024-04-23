@@ -35,3 +35,7 @@
   box-sizing: border-box;
   font-family: Roboto;
 }
+
+body {
+  overflow-x: hidden;
+}

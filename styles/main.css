@@ -1,0 +1,142 @@
+.hero {
+  position: relative;
+}
+
+.hero .container {
+  padding-top: 10%;
+  margin-bottom: 80px;
+}
+
+.hero .container h1 {
+  max-width: 400px;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+}
+.hero .container p {
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.bg {
+  position: absolute;
+  top: -40%;
+  right: -23%;
+  z-index: -10;
+  max-width: 900px;
+}
+
+.bg-phone {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  max-width: 600px;
+}
+
+/* future */
+.futures {
+  background: var(--Very-light-gray);
+}
+
+.futures .container {
+  padding: 80px 30px;
+}
+
+.futures .container .text-header {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.futures .container .future-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.futures .container .future-cards .card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.futures .container .future-cards img {
+  height: 48px;
+  margin: 10px 0;
+}
+
+.futures .container .future-cards .card p {
+  margin-top: 20px;
+}
+
+/* articles */
+.articles .container {
+  padding: 80px 30px;
+}
+.articles .container h1 {
+  font-size: rem;
+}
+.articles .container .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 40px;
+  gap: 30px;
+  justify-content: center;
+}
+.articles .container .cards .card {
+  box-shadow: 0 4px 100px 10px rgba(0, 0, 0, 0.03);
+}
+.articles .container .cards .card img {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 5px 5px 0 0;
+}
+.articles .container .cards .card .card-info {
+  padding: 8px;
+}
+.articles .container .cards .card span {
+  color: var(--Grayish-blue);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.articles .container .cards .card p {
+  margin-top: 10px;
+}
+
+/* footer */
+footer {
+  background: var(--dark-blue);
+}
+footer .container {
+  padding: 60px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer img.logo {
+  background: white;
+  margin-bottom: 20px;
+}
+footer .container .left {
+  display: flex;
+  align-items: start;
+  gap: 20%;
+  justify-content: space-between;
+  min-width: 600px;
+}
+footer .container .left .icons a {
+  margin-right: 10px;
+}
+footer .container .left ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .container .left ul li a {
+  text-decoration: none;
+  color: var(--Grayish-blue);
+}
+
+footer .container .right button {
+  margin-bottom: 20px;
+}

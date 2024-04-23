@@ -1,5 +1,7 @@
 .main-header {
   background: white;
+  position: relative;
+  z-index: 100;
 }
 
 .main-header .container {
